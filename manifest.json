@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:attack": {
+        "damage": 5
+      },
+      "minecraft:movement": {
+        "value": 0.12
+      }
+    }
+  }
+}
+
